@@ -23,7 +23,7 @@ This repository includes:
 ## Global Sensitivity Analysis (GSA)
 
 GSA is performed using the [SobolGSA software](https://www.imperial.ac.uk/process-systems-engineering/research/free-software/sobolgsa-software/).  
-The relevant code for integrating GSA with the optimization framework is also included.
+The relevant code for GSA is also included.
 
 ## Citation
 If you use this code in your work, please cite our paper:
