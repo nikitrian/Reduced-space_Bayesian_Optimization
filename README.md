@@ -4,6 +4,7 @@ Niki Triantafyllou, Ben Lyons, Andrea Bernardi, Benoit Chachuat, Cleo Kontoravdi
 
 This is the official implementation of our *Computers & Chemical Engineering* 2024 [paper](https://www.sciencedirect.com/science/article/pii/S0098135424002254).
 
+## Algorithms
 This repository contains the reduced-space simulation-based and surrogate-based Bayesian optimization algorithms for the optimization of simulator-based process flowsheets.  
 The framework employs global sensitivity analysis (GSA) for dimensionality reduction by identifying critical process variables that contribute significantly to the variability of the objective function (e.g., productivity and operating costs).  
 
