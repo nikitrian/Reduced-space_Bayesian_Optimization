@@ -1,0 +1,10 @@
+﻿Equipment Type,S units,S min,S max,a,b,n,Notes,hysys_attribute,hysys_name,hand_factor
+Compressor,kW,75,30000,580000,20000,0.6,Centrifugal,EnergyValue,compressor,2.5
+Furnace,MW,0.2,60,80000,109000,0.8,Cylindrical (cheaper at 60MW cross over point compared to box furnace),HeatFlowValue,,2
+HEX (U-tube),m2,10,1000,28000,54,1.2,,,,3.5
+HEX (U-tube kettle),m2,10,500,29000,400,0.9,,,,3.5
+Vessel (vertical),kg,160,250000,11600,34,0.85,Carbon steel,,,4
+Pump (centrifugal),l/s,0.2,126,8000,240,0.9,,VolumeFlowValue,pumpop,4
+Pump motor,kW,1,2500,-1100,2100,0.6,explosion proof,WorkValue,pumpop,4
+Sieve trays,m,0.5,5,130,440,1.8,diameter,,,2.5
+Turbine,kW,100,20000,-14000,1900,0.75,Condensing steam
