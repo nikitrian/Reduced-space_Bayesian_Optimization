@@ -22,9 +22,8 @@ The methods combine process simulators, global sensitivity analysis (GSA), dimen
 
 ## Requirements
 
-Most Python-only analysis files can be inspected without commercial software. Full reproduction of the simulator-based workflows requires a Windows machine with the relevant licensed simulators installed:
+Full reproduction of the simulator-based workflows requires a Windows machine with the relevant licensed simulators installed:
 
-- Python 3.10 or 3.11.
 - Microsoft Excel with macro support.
 - SuperPro Designer for the plasmid DNA case study.
 - Aspen HYSYS for the DME case study.
