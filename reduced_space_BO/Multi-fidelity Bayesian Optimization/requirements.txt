@@ -1,0 +1,10 @@
+numpy
+pandas
+torch
+botorch
+gpytorch
+scikit-learn
+scipy
+matplotlib
+pywin32; platform_system == "Windows"
+jsonpickle

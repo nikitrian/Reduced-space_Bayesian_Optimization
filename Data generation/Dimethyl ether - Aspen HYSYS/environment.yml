@@ -122,4 +122,3 @@ dependencies:
   - zeromq=4.3.4=hd77b12b_0
   - zlib=1.2.13=h8cc25b3_0
   - zstd=1.5.5=hd43e919_0
-prefix: C:\Users\btl15\AppData\Local\miniconda3\envs\nt_gsa_bo

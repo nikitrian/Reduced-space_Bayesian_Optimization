@@ -554,8 +554,12 @@ if __name__ == '__main__':
     import sys
     os.system('cls')
 
-    filepath = r"C:\Users\nt320\OneDrive - Imperial College London\Niki GSA bayesian optimisation\Submission 2"
-    file = filepath + r"\i-dme-complete-gsa-equil.hsc"
+    from pathlib import Path
+    hysys_model_rel = Path("Data generation") / "Dimethyl ether - Aspen HYSYS" / "i-dme-complete-gsa-equil.hsc"
+    file = str(next(
+        (parent / hysys_model_rel for parent in Path(__file__).resolve().parents if (parent / hysys_model_rel).exists()),
+        hysys_model_rel,
+    ))
 
     # Creating and connecting to the hysys flowsheet and solve
     try:

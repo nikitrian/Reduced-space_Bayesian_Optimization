@@ -6377,4 +6377,4 @@ def Metamodel_HDMR(x_in, *varargin):
 if __name__ == '__main__' :
 	x_in = sys.argv[1]
 	(yout, (m1, m2)) = Metamodel_HDMR(x_in)
-	print yout
+	print(yout)

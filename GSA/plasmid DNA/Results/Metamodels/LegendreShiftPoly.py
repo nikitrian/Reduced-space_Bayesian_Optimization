@@ -52,4 +52,4 @@ def LegendreShiftPoly(n):
 if __name__ == '__main__' :
 	n = sys.argv[1]
 	yout = LegendreShiftPoly(n)
-	print yout
+	print(yout)
