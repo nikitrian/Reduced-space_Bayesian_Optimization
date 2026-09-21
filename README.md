@@ -1,8 +1,6 @@
-# Reduced-space Bayesian Optimization for Process Flowsheet Optimization
+# Reduced-space Multi-Fidelity Bayesian Optimization for Process Flowsheet Optimization
 
-Niki Triantafyllou, Ben Lyons, Andrea Bernardi, Benoit Chachuat, Cleo Kontoravdi, and Maria M. Papathanasiou
-
-This repository contains research code for reduced-space Bayesian optimization of simulator-based process flowsheets. It includes the official implementation for our 2024 *Computers & Chemical Engineering* paper, together with an extension for multi-fidelity Bayesian optimization.
+This repository contains research code for reduced-space Bayesian optimization of simulator-based process flowsheets. It includes the official implementation for our 2024 *Computers & Chemical Engineering* paper, together with the multi-fidelity Bayesian optimization implementation accompanying our 2026 arXiv paper, *Reduced-Space Multi-Fidelity Bayesian Optimization of Process Simulation Models* (accepted at LION 20).
 
 The methods combine process simulators, global sensitivity analysis (GSA), dimensionality reduction, Bayesian optimization, and artificial neural network (ANN) surrogate models.
 
@@ -112,5 +110,19 @@ If you use this code in your work, please cite:
   publisher={Elsevier},
   doi={10.1016/j.compchemeng.2024.108807},
   url={https://www.sciencedirect.com/science/article/pii/S0098135424002254}
+}
+```
+
+For the multi-fidelity Bayesian optimization implementation, please also cite:
+
+```bibtex
+@misc{triantafyllou2026reducedspace,
+  title={Reduced-Space Multi-Fidelity Bayesian Optimization of Process Simulation Models},
+  author={Triantafyllou, Niki and Bernardi, Andrea and Papathanasiou, Maria M.},
+  year={2026},
+  eprint={2609.17440},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2609.17440}
 }
 ```
